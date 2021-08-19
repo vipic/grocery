@@ -7,7 +7,7 @@ DOMAIN,118.89.204.198,REJECT
 DOMAIN,sugar.zhihu.com,REJECT
 DOMAIN,appcloud2.in.zhihu.com,REJECT
 URL-REGEX,^https:\/\/pic\d\.zhimg\.com\/70\/,REJECT
-URL-REGEX,https:\/\/(api|www)\.zhihu\.com\/(ab|adx|fringe|commercial|ad-style-service|.*(recommendations|extended|featured-comment-ad)|api\/v4\/(brand|mcn|(answer|question)s\/\d+\/meta_related_topics)|brand\/questions\/\d+\/activity\/answers\/red-packet(\/|\?|$)),REJECT
+URL-REGEX,https:\/\/(api|www)\.zhihu\.com\/(ab|adx|fringe|commercial_api|ad-style-service|.*(recommendations|extended|featured-comment-ad)|api\/v4\/(brand|mcn|(answer|question)s\/\d+\/meta_related_topics)|brand\/questions\/\d+\/activity\/answers\/red-packet(\/|\?|$)),REJECT
 
 [MITM]
 hostname = %APPEND% ap*.zhihu.com, www.zhihu.com, pic*.zhimg.com, lens.zhihu.com
