@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>0E30D6C5-2C1E-47BE-A7A5-ED10C6AD9769</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>sspai</string>
+			<key>text</key>
+			<string>少数派</string>
+			<key>url</key>
+			<string>https://google.com/search?q=site%3Asspai.com%20{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>B9CFA542-3684-4703-AA7C-D1CB7971B535</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>smzdm</string>
+			<key>text</key>
+			<string>什么值得买</string>
+			<key>url</key>
+			<string>https://search.smzdm.com/?s={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>DC69914A-D4AA-4235-995F-30F9D75E3C76</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>chiphell</string>
+			<key>text</key>
+			<string>赤膊地狱</string>
+			<key>url</key>
+			<string>https://google.com/search?q=site%3Achiphell.com%20{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>FD82966E-EC51-4CC3-8682-67B3FB48F34E</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jd</string>
+			<key>text</key>
+			<string>京东</string>
+			<key>url</key>
+			<string>https://search.jd.com/Search?keyword={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
