@@ -848,7 +848,6 @@ DOMAIN-SUFFIX,ad.api.3g.youku.com
 DOMAIN-SUFFIX,ad.api.mobile.youku.com
 DOMAIN-SUFFIX,ad.api.moji.com
 DOMAIN-SUFFIX,ad.auditude.com
-DOMAIN-SUFFIX,ad.bayescom.com
 DOMAIN-SUFFIX,ad.beihai365.com
 DOMAIN-SUFFIX,ad.bitmedia.io
 DOMAIN-SUFFIX,ad.bjmama.net
@@ -1950,6 +1949,7 @@ DOMAIN-SUFFIX,bax.xiawu.com
 DOMAIN-SUFFIX,baxf.m.shuhuangge.org
 DOMAIN-SUFFIX,bay.xiawu.com
 DOMAIN-SUFFIX,baycode.cn
+DOMAIN-KEYWORD,bayescom
 DOMAIN-SUFFIX,bayimob.com
 DOMAIN-SUFFIX,bazinga.mse.sogou.com
 DOMAIN-SUFFIX,bb.tuku.cc
@@ -8304,7 +8304,6 @@ DOMAIN-SUFFIX,shulhanafuh.com
 DOMAIN-SUFFIX,shunlige.com
 DOMAIN-SUFFIX,shuqw.com
 DOMAIN-SUFFIX,shushijiameng123.com
-DOMAIN-SUFFIX,shuttle.bayescom.com
 DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,shxinjie.cn
 DOMAIN-SUFFIX,shxqeps.com
@@ -9135,6 +9134,8 @@ DOMAIN-SUFFIX,um29.com
 DOMAIN-SUFFIX,umid.orion.meizu.com
 DOMAIN-SUFFIX,umiwi.com
 DOMAIN-SUFFIX,umm6.cn
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umyai.com
 DOMAIN-SUFFIX,un.52rkl.cn
 DOMAIN-SUFFIX,un.soarfi.cn
@@ -10357,3 +10358,22 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com
 DOMAIN-SUFFIX,zzyonghao.com
 DOMAIN-SUFFIX,zzz7.52896368.com
 DOMAIN-SUFFIX,zzzzz4.52896368.com
+
+DOMAIN-SUFFIX,ut.taobao.com
+DOMAIN,adashbc.ut.taobao.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,sdk.e.qq.com
+DOMAIN-SUFFIX,v.gdt.qq.com
+DOMAIN-SUFFIX,bayescom.com
+DOMAIN-SUFFIX,bayescom.cn
+DOMAIN-SUFFIX,hectorstatic.baidu.com
+DOMAIN-SUFFIX,mpush-api.aliyun.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,dm.toutiao.com
+DOMAIN-SUFFIX,adsmind.ugdtimg.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,log.umsns.com
