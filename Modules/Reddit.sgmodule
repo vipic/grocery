@@ -1,0 +1,13 @@
+#!name=Reddit去广告
+#!desc=去掉timeline中非关注话题(一般是广告)内容
+#!system=ios
+
+[Rule]
+
+[MITM]
+hostname = %INSERT% oauth.reddit.com/best.json
+
+[Script]
+
+
+Reddit.js = type=http-response,requires-body=1,max-size=-1,pattern=^https:\/\/oauth\.reddit\.com\/best\.json,script-path=https://raw.githubusercontent.com/vipic/grocery/main/Scripts/Reddit.js,script-update-interval=0
