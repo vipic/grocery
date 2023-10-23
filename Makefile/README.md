@@ -13,6 +13,8 @@ This example uses the simplest input to compile a Makefile file, which includes 
 
 A `.PHONY ` beyond the basic commands is also explained in the file comments.
 
+If you want to learn more, you can check [this link](https://makefiletutorial.com/).
+
 ---
 
 Makefile 被用来帮助决定一个大型程序中哪些部分需要重新编译。当然，它也能在很多场景下帮助开发人员减少输入冗余命令。本示例中，以 javascript 语言为例，列举了一个简单的 Makefile 文件。对应写法也可以应用在 python 等其他语言上。
@@ -26,6 +28,8 @@ Makefile 被用来帮助决定一个大型程序中哪些部分需要重新编�
 
 在基础命令之外的一个 `.PHONY` 也在文件注释中做了说明。
 
+如果你想了解更多，可以查看 [这个链接](https://makefiletutorial.com/)
+
 ---
 
 Makefileは、大規模なプログラムのどの部分を再コンパイルする必要があるかを判断するのに使用されます。もちろん、多くのシナリオで開発者が冗長なコマンドの入力を減らすのにも役立ちます。この例では、JavaScript言語を例に、単純なMakefileファイルをリスト化しました。対応する書き方は、Pythonなど他の言語にも適用できます。
@@ -38,3 +42,5 @@ Makefileは、大規模なプログラムのどの部分を再コンパイルす
 5. ヘルプ情報。
 
 基本的なコマンドを超えて、`.PHONY` もファイルコメントで説明されています。
+
+もっと詳しく知りたい方は、[このリンク](https://makefiletutorial.com/)をご覧ください。
