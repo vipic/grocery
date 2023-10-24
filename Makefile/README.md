@@ -13,7 +13,7 @@ This example uses the simplest input to compile a Makefile file, which includes 
 
 A `.PHONY ` beyond the basic commands is also explained in the file comments.
 
-If you want to learn more, you can check [this link](https://makefiletutorial.com/).
+> If you want to learn more, you can check [this link](https://makefiletutorial.com/).
 
 ---
 
@@ -28,7 +28,7 @@ Makefile 被用来帮助决定一个大型程序中哪些部分需要重新编�
 
 在基础命令之外的一个 `.PHONY` 也在文件注释中做了说明。
 
-如果你想了解更多，可以查看 [这个链接](https://makefiletutorial.com/)
+> 如果你想了解更多，可以查看 [这个链接](https://makefiletutorial.com/)
 
 ---
 
@@ -43,4 +43,4 @@ Makefileは、大規模なプログラムのどの部分を再コンパイルす
 
 基本的なコマンドを超えて、`.PHONY` もファイルコメントで説明されています。
 
-もっと詳しく知りたい方は、[このリンク](https://makefiletutorial.com/)をご覧ください。
+> もっと詳しく知りたい方は、[このリンク](https://makefiletutorial.com/)をご覧ください。
