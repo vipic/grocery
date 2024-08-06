@@ -1,0 +1,9 @@
+#!name=藏宝阁视频屏蔽
+#!desc=进入详情页会自动播放系统生成的视频，非常影响使用体验
+#!system=ios
+
+[Script]
+http-response ^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_equip_detail requires-body=1,script-path=https://raw.githubusercontent.com/vipic/grocery/main/Scripts/CBG.js
+
+[MITM]
+hostname = %APPEND% my.cbg.163.com
