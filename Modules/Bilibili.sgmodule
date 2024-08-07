@@ -1,6 +1,5 @@
 #!name=Bilibili去广告
 #!desc=哔哩哔哩App去广告
-#!system=ios
 
 [Rule]
 URL-REGEX,^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/season\/rank\/cn|x\/v2\/(dm\/ad|rank.*rid=(168|5)|dataflow\/report|search\/(defaultword|trending|recommend|resource)|splash)),REJECT
