@@ -2,12 +2,13 @@
 
 const url = $request.url;
 try {
-  if(url.includes('popular1')) {
+  if(url.includes('popular')) {
     let obj = JSON.parse($response.body);
     const tmp = obj.data.list.filter(inner => {
-      const filterList= ['美食', '法律', '车', '新能源', '美妆', '同人', 'cos', "mv", '翻唱', '三农']
-          //如果tanme符合filterList中的任意一个，则返回false，否则返回true
-      return filterList.every(item => inner.tname.includes(item) === false);
+      const tagFilterList= ['美食', '法律', '车', '新能源', '美妆', '同人', 'cos', "mv", '翻唱', '三农']
+      const desFiterKeywords = ['黑神话']
+          //如果tanme符合ftagFilterList中的任意一个，则返回false，否则返回true
+      return tagFilterList.every(item => inner.tname.includes(item) === false) && desFiterKeywords.every(item=> inner.desc.includes(item) === false);
     });
     $done({
       body: JSON.stringify({
