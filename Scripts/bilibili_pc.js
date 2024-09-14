@@ -2,7 +2,7 @@
 
 const url = $request.url;
 try {
-  if(url.includes('popular')) {
+  if(url.includes('popular1')) {
     let obj = JSON.parse($response.body);
     const tmp = obj.data.list.filter(inner => {
       const filterList= ['美食', '法律', '车', '新能源', '美妆', '同人', 'cos', "mv", '翻唱', '三农']
