@@ -1,8 +1,10 @@
 const url = $request.url;
 let obj = JSON.parse($response.body);
 
-const other_info = obj.equip.other_info;
-delete other_info.report_score_data;
+
+if (obj?.equip?.other_info) { // 检查 obj.equip.other_info 是否可访问
+  delete obj.equip.other_info.report_score_data;
+}
 $done({
   body: JSON.stringify({
     ...obj,
