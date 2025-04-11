@@ -6,6 +6,10 @@ $done({ body: JSON.stringify({
   equip: {
     ...obj.equip,
     video_info: {},
-    video_list: []
+    video_list: [],
+    other_info:{
+        ...obj.equip.other_info,
+        report_score_data: null
+    }
   }
 }) });
