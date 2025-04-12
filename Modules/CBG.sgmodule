@@ -4,6 +4,8 @@
 [Rule]
 URL-REGEX,^https://dc\.cbg\.163\.com\/cgi\/ad\/ad_config.*,REJECT
 URL-REGEX,^https://my\.cbg\.163\.com\/cgi\/api\/get_auto_topics.*,REJECT
+URL-REGEX,^https://my\.cbg\.163\.com\/cgi\/api\/has_new_kefu_msg.*,REJECT
+URL-REGEX,^https://my\.cbg\.163\.com\/cgi\-bin\/recommend.*,REJECT
 
 
 
