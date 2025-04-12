@@ -1,12 +1,14 @@
-#!name=藏宝阁视频屏蔽
-#!desc=进入详情页会自动播放系统生成的视频，非常影响使用体验
+#!name=藏宝阁无用元素屏蔽
+#!desc=去掉弹窗广告，详情页的视频
 
 [Rule]
-URL-REGEX,^https:\/\/dc\.cbg\.163\.com\/cgi\/ad\/ad_config*,REJECT-TINYGIF
-URL-REGEX,^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_auto_topics*,REJECT-TINYGIF
+URL-REGEX,^https:\/\/dc\.cbg\.163\.com\/cgi\/ad*,REJECT
+URL-REGEX,^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_auto_topics*,REJECT
+
+
 
 [Script]
 http-response ^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_equip_detail requires-body=1,script-path=https://raw.githubusercontent.com/vipic/grocery/main/Scripts/CBG.js
 
 [MITM]
-hostname = %APPEND% my.cbg.163.com
+hostname = %APPEND% cbg.163.com
