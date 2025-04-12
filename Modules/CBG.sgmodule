@@ -2,8 +2,8 @@
 #!desc=去掉弹窗广告，详情页的视频
 
 [Rule]
-URL-REGEX,^https:\/\/dc\.cbg\.163\.com\/cgi\/ad*,REJECT
-URL-REGEX,^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_auto_topics*,REJECT
+URL-REGEX,^https://dc\.cbg\.163\.com\/cgi\/ad\/ad_config.*,REJECT
+URL-REGEX,^https://my\.cbg\.163\.com\/cgi\/api\/get_auto_topics.*,REJECT
 
 
 
@@ -11,4 +11,4 @@ URL-REGEX,^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_auto_topics*,REJECT
 http-response ^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_equip_detail requires-body=1,script-path=https://raw.githubusercontent.com/vipic/grocery/main/Scripts/CBG.js
 
 [MITM]
-hostname = %APPEND% cbg.163.com
+hostname = %APPEND% my.cbg.163.com, dc.cbg.163.com
