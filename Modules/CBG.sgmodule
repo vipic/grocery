@@ -5,12 +5,13 @@
 URL-REGEX,^https://dc\.cbg\.163\.com\/cgi\/ad\/ad_config.*,REJECT
 URL-REGEX,^https://my\.cbg\.163\.com\/cgi\/api\/get_auto_topics.*,REJECT
 URL-REGEX,^https://my\.cbg\.163\.com\/cgi\/api\/has_new_kefu_msg.*,REJECT
-URL-REGEX,^https://my\.cbg\.163\.com/cgi\-bin/recommend.*act=similar.*,REJECT
+URL-REGEX,^https://my\.cbg\.163\.com/cgi\-bin\/recommend.*act=similar.*,REJECT
 
 
 
 [Script]
 http-response ^https:\/\/my\.cbg\.163\.com\/cgi\/api\/get_equip_detail requires-body=1,script-path=https://raw.githubusercontent.com/vipic/grocery/main/Scripts/CBG.js
+http-response ^https://my\.cbg\.163\.com/cgi\-bin\/recommend.* requires-body=1,script-path=https://raw.githubusercontent.com/vipic/grocery/main/Scripts/CBG_filter.js
 
 [MITM]
 hostname = %APPEND% my.cbg.163.com, dc.cbg.163.com
